@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title and title != site.title %}{{ title }} · {% endif %}{{ site.title }} · {{ site.author }}</title>
+<meta name="description" content="{{ description or site.description }}">
+<meta property="og:title" content="{{ title or site.title }}">
+<meta property="og:description" content="{{ description or site.description }}">
+{% if image %}<meta property="og:image" content="{{ image }}">{% endif %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
+<link rel="icon" href="{{ '/assets/favicon.svg' | url }}" type="image/svg+xml">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head"><div class="wrap head-row">
+  <a class="brand" href="{{ '/' | url }}"><span class="brand-mark" aria-hidden="true">M</span><span><span class="brand-name">{{ site.title }}</span><br><span class="brand-sub">{{ site.author }}</span></span></a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav class="nav" id="nav" aria-label="Main">
+    {% set links = [['/', 'Home', 'home'], ['/blog/', 'Blog', 'blog'], ['/teaching/', 'Teaching', 'teaching'], ['/talks/', 'Talks', 'talks'], ['/projects/', 'Projects', 'projects'], ['/about/', 'About', 'about']] %}
+    {% for l in links %}<a href="{{ l[0] | url }}"{% if section == l[2] %} class="on" aria-current="page"{% endif %}>{{ l[1] }}</a>{% endfor %}
+  </nav>
+</div></header>
+<main id="main">
+{{ content | safe }}
+</main>
+<footer class="foot"><div class="wrap">
+  <div class="foot-grid">
+    <div><h4>{{ site.title }}</h4><p style="margin:0 0 10px">{{ profile.address }}</p></div>
+    <div><h4>Connect</h4><ul>{% for s in profile.social %}<li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }}</a></li>{% endfor %}</ul></div>
+    <div><h4>Talking Statistics podcast</h4><ul>{% for s in profile.podcast %}<li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }}</a></li>{% endfor %}</ul></div>
+  </div>
+  <div class="fine">© <span id="yr"></span> {{ site.title }} · {{ site.author }}</div>
+</div></footer>
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+const mb = document.querySelector('.menu-btn'), nv = document.getElementById('nav');
+mb.addEventListener('click', () => { nv.classList.toggle('open'); mb.setAttribute('aria-expanded', nv.classList.contains('open')); });
+</script>
+</body>
+</html>

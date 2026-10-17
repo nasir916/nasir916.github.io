@@ -1,0 +1,31 @@
+---
+layout: base.njk
+section: blog
+title: Blog
+permalink: /blog/
+---
+<section class="article-head"><div class="wrap"><span class="eyebrow">My Inference blog</span><h1>Articles &amp; notes</h1><p class="lead">Statistics, R programming, machine learning, research tips and personal reflections.</p></div></section>
+<section style="padding-top:40px"><div class="wrap">
+  <div class="tools">
+    <label class="skip" for="q">Search articles</label><input id="q" class="search" type="search" placeholder="Search articles…">
+    <div class="chips" id="cats"><button class="chip btn-chip" data-cat="" aria-pressed="true">All</button>{% for c in collections.categories %}<button class="chip btn-chip" data-cat="{{ c }}" aria-pressed="false">{{ c }}</button>{% endfor %}</div>
+  </div>
+  <div class="grid g3" id="list">{% for post in collections.posts %}{% include "card.njk" %}{% endfor %}</div>
+  <p class="state" id="none" hidden>No articles match your search.</p>
+</div></section>
+<script>
+(() => {
+  const cards = [...document.querySelectorAll('#list .card')], q = document.getElementById('q'), none = document.getElementById('none');
+  let cat = '';
+  const apply = () => {
+    const t = q.value.toLowerCase().trim(); let n = 0;
+    cards.forEach((c) => { const ok = (!cat || c.dataset.cats.split('|').includes(cat)) && (!t || c.dataset.text.includes(t)); c.hidden = !ok; n += ok; });
+    none.hidden = n > 0;
+  };
+  q.addEventListener('input', apply);
+  document.getElementById('cats').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-cat]'); if (!b) return; cat = b.dataset.cat;
+    document.querySelectorAll('#cats [data-cat]').forEach((x) => x.setAttribute('aria-pressed', x === b)); apply();
+  });
+})();
+</script>

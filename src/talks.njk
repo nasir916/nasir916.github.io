@@ -1,0 +1,15 @@
+---
+layout: base.njk
+section: talks
+title: Talks & Training
+permalink: /talks/
+---
+<section class="article-head"><div class="wrap"><span class="eyebrow">Public lectures</span><h1>Talks, training &amp; workshops</h1><p class="lead">Invited lectures and training workshops on statistics, R programming, SPSS and STATA since 2015.</p></div></section>
+<section><div class="wrap two" style="align-items:start">
+  <ol class="timeline">{% for t in talks.items %}<li>
+    <div class="date">{{ t.date }}</div><h3>{{ t.title }}</h3>{% if t.subtitle %}<p class="subt">{{ t.subtitle }}</p>{% endif %}
+    <dl><dt>Venue</dt><dd>{{ t.venue }}</dd><dt>Organizer</dt><dd>{{ t.organizer }}</dd></dl>
+    {% if t.link %}<a class="tl-link" href="{{ t.link }}" target="_blank" rel="noopener">{{ t.linkLabel or 'Link' }} ↗</a>{% endif %}
+  </li>{% endfor %}</ol>
+  <div class="gallery-col"><h3>Photos</h3><div class="gallery">{% for p in talks.photos %}<img src="{{ p }}" alt="Photo from a talk or workshop" loading="lazy">{% endfor %}</div></div>
+</div></section>

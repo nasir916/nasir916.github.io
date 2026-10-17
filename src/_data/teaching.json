@@ -1,0 +1,453 @@
+{
+  "practice": {
+    "label": "Practice STA334 – R Practice Portal",
+    "url": "https://sta334-practice.streamlit.app/#sta-334-r-practice-portal"
+  },
+  "basicR": {
+    "intro": "This two-day introductory workshop on R is designed to equip participants with foundational skills in R programming, data manipulation, and basic statistical analysis. On the first day, attendees will be introduced to the RStudio IDE, learn how to handle vectors and dataframes, and create basic graphs. The second day will focus on essential statistical techniques, including t-test, ANOVA, and linear regression, and conclude with an introduction to machine learning using the caret package tools. This hands-on workshop is ideal for beginners looking to build a solid base in R and explore its capabilities in data analysis and machine learning.",
+    "day1": [
+      {
+        "label": "Introduction to R",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/Basic+R.pdf"
+      },
+      {
+        "label": "Basic R",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/1)+Introduction+to+R.html"
+      },
+      {
+        "label": "Vector and Relational Operators",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/2)+vector+and+relational+operators.html"
+      },
+      {
+        "label": "Data Frames",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/3)+Data+Frame.html"
+      },
+      {
+        "label": "Introduction to Packages",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/4)+Intro+to+Packages.html",
+        "sub": [
+          {
+            "label": "List of Packages to install",
+            "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/list+of+packages+to+install.R"
+          }
+        ]
+      },
+      {
+        "label": "Import and Export Data",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/5)+Import+and+Export+Data.html"
+      },
+      {
+        "label": "Data Summarization",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/6)+Data+Summarization.html"
+      },
+      {
+        "label": "Plotting with R – base package",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/7)+Plotting+using+Base+Package/7)+Graphical+Presentation+-+Base.html"
+      },
+      {
+        "label": "Introduction to ggplot2",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/8)+Introduction+to+ggplot2.html"
+      }
+    ],
+    "day2": [
+      {
+        "label": "Test of mean difference",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/9)+Test+of+Means+Difference.html"
+      },
+      {
+        "label": "Simple Linear Regression",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/10)+Simple+Linear+Regression.html"
+      },
+      {
+        "label": "Multiple Linear Regression",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/11)+Multiple+Linear+Regression.html"
+      },
+      {
+        "label": "Introduction to Machine Learning & Naive Bayes",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/12)+Machine+Learning+classification.html"
+      },
+      {
+        "label": "Support Vector Machine",
+        "url": "https://basicr1112sept2024.s3.ap-southeast-1.amazonaws.com/13)+Support+Vector+Machine.html"
+      }
+    ],
+    "dataset": {
+      "label": "Data set Introduction to R",
+      "url": "https://dataintror.s3-ap-southeast-1.amazonaws.com/dataset+Introduction+to+R.zip"
+    }
+  },
+  "dataAnalytics": {
+    "intro": "In this course, we introduce the tools and techniques for data analytics. We examine statistical, machine learning, data mining and data management techniques that make possible the efficient analysis of data. Students are expected to have a good overview of data analytics techniques from the management, manipulation, analysis, and interpretation. Techniques, issues, and challenges will also be covered for big data.",
+    "assignment": "Please find datasets from Kaggle, Github, etc. in preparation for the assignment.",
+    "topics": [
+      {
+        "title": "Welcome Pack",
+        "links": [
+          {
+            "label": "Course Outline",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/COURSE+OUTLINE_DA_May2024+-+New.pdf"
+          },
+          {
+            "label": "Lesson Plan",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Course+Outline+and+Lesson+Plan_FEM2063DataAnalytics_May2024.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Simple Linear Regression",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Simple+Linear+Regression.pdf"
+          },
+          {
+            "label": "Dataset Example 1",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Example+1.csv"
+          },
+          {
+            "label": "Python codes for Example 1",
+            "url": "https://colab.research.google.com/drive/1uBhaedip2COZWGkhwqlF1aFqt1NV-7ev?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Multiple Linear Regression",
+        "links": [
+          {
+            "label": "Slides",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Multiple+Linear+Regression.pdf"
+          },
+          {
+            "label": "Dataset Example 2",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Example+2.csv"
+          },
+          {
+            "label": "Python codes for Example 2",
+            "url": "https://colab.research.google.com/drive/1EI_WOypdYC-GDmMICDiUPa2kyU_LSvG1?usp=sharing"
+          },
+          {
+            "label": "Dataset Example 4",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Example+4.csv"
+          }
+        ]
+      },
+      {
+        "title": "Logistic Regression",
+        "links": [
+          {
+            "label": "Slide – Introduction to Classification Techniques",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Chapter+4+-+Classifications.pdf"
+          },
+          {
+            "label": "Slide – Logistic Regression",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Chapter+4+-+Logistic+Regression.pdf"
+          },
+          {
+            "label": "GLOW Dataset",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/GLOW500.txt"
+          },
+          {
+            "label": "Python codes for GLOW500",
+            "url": "https://colab.research.google.com/drive/1nV6BGDcfWx7MoEsp0oAlsJmoKBZRjDqp?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Naive Bayes",
+        "links": [
+          {
+            "label": "Slide – Naive Bayes",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Chapter+4+-+Na%C3%AFve+Bayes.pdf"
+          },
+          {
+            "label": "Data set – Example 5",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Example+5.csv"
+          },
+          {
+            "label": "Example 5 – Python codes",
+            "url": "https://colab.research.google.com/drive/1gGuq9S917DAoTIcR8sXueq4hQhHfLReq?usp=sharing"
+          },
+          {
+            "label": "Dataset – Bank",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/bank.csv"
+          },
+          {
+            "label": "Bank – Python codes",
+            "url": "https://colab.research.google.com/drive/1QVvqoCB4PTO69c-eRkz-JhtUyloBCSfY?usp=sharing"
+          },
+          {
+            "label": "Dataset – Loan",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/loan_data.csv"
+          },
+          {
+            "label": "Loan – Python codes",
+            "url": "https://colab.research.google.com/drive/12DuhhPJpRQaJdjMQ3y7omEOsSSZNjHLc?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Linear Discriminant Analysis",
+        "links": [
+          {
+            "label": "Slide – Linear Discriminant Analysis",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Chapter+4+-+Discriminant+Analysis.pdf"
+          },
+          {
+            "label": "Data set – Example 2",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Example+2.csv"
+          },
+          {
+            "label": "Example 2 – Python codes",
+            "url": "https://colab.research.google.com/drive/1KKKvHClbhDUNZAvO0tYI-qHFJh4IYH2_?usp=sharing"
+          },
+          {
+            "label": "Dataset – Example 3",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Example+3.csv"
+          },
+          {
+            "label": "Example 3 – Python codes",
+            "url": "https://colab.research.google.com/drive/1Zvq-ol_u1S1nZJQ8WV3E_qhjvCjFFDnX?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Dimensionality Reduction Methods",
+        "links": [
+          {
+            "label": "Slide Dimensional Reduction",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Chapter+5+-+Dimensionality+Reduction+Methods.pdf"
+          },
+          {
+            "label": "Dataset USArrest",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/USArrest.csv"
+          },
+          {
+            "label": "Python code – SVD – Example 1",
+            "url": "https://colab.research.google.com/drive/1Lg0TIi4WoW1mM47WdAVVUVAM9LHtbefS?usp=sharing"
+          },
+          {
+            "label": "Python code – SVD – USArrest",
+            "url": "https://colab.research.google.com/drive/1PSlskgFhZNdLKsv5rN2mz5n__JQCYmoW?usp=sharing"
+          },
+          {
+            "label": "Python code – SVD – Image Example 1",
+            "url": "https://colab.research.google.com/drive/1xCSqXdu-60dplHH-AEkFUBNLVa0f2TY6?usp=sharing"
+          },
+          {
+            "label": "Data Image 1",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/1.jpg"
+          },
+          {
+            "label": "Python code – PCA – USArrest",
+            "url": "https://colab.research.google.com/drive/1447g0fPrFCZzzcbzgv87SKevTEFUfBnP?usp=sharing"
+          },
+          {
+            "label": "Link online Class (8pm–10pm)",
+            "url": "https://uitm.webex.com/uitm/j.php?MTID=m06441d6642a224e9b88cb20658d14312"
+          }
+        ]
+      },
+      {
+        "title": "k Nearest Neighbors",
+        "links": [
+          {
+            "label": "Slide kNN",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/K-Nearest+Neighbor.pdf"
+          },
+          {
+            "label": "Dataset Example 5",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Example5.csv"
+          },
+          {
+            "label": "Python code – KNN – Example 5",
+            "url": "https://colab.research.google.com/drive/13wDEodPPsO6phLINaCWzcOk8F8q7toDn?usp=sharing"
+          },
+          {
+            "label": "Dataset Cancer",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Cancer+Data.csv"
+          },
+          {
+            "label": "Python code – KNN – Data Cancer",
+            "url": "https://colab.research.google.com/drive/1kVPYtvDotCm2GI7en6ijEVuI67gvHmdj?usp=sharing"
+          },
+          {
+            "label": "Link online Class (8pm–10pm)",
+            "url": "https://uitm.webex.com/uitm/j.php?MTID=m06441d6642a224e9b88cb20658d14312"
+          }
+        ]
+      },
+      {
+        "title": "Support Vector Machine",
+        "links": [
+          {
+            "label": "Slide SVM",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Support+Vector+Machine.pdf"
+          },
+          {
+            "label": "Python code – Example 1",
+            "url": "https://colab.research.google.com/drive/1x4L0zu9C_WqXcqdVNlN5ln4M8EgVOmdj?usp=sharing"
+          },
+          {
+            "label": "Python code – Example 2",
+            "url": "https://colab.research.google.com/drive/1EYGMXr9r5GifYj44UP1eWZ5egfBqlb8K?usp=sharing"
+          },
+          {
+            "label": "Link online Class (8pm–10pm)",
+            "url": "https://uitm.webex.com/uitm/j.php?MTID=m06441d6642a224e9b88cb20658d14312"
+          }
+        ]
+      },
+      {
+        "title": "Decision Trees",
+        "links": [
+          {
+            "label": "Slide Classification and Regression Trees",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Classification+and+Regression+Trees+(CART).pdf"
+          },
+          {
+            "label": "Python code – Example 1 – Classification Trees",
+            "url": "https://colab.research.google.com/drive/1Qqx04cIsiDySxO-FdBAfZ6ew0_-V9YqJ?usp=sharing"
+          },
+          {
+            "label": "Data set Hitters.csv",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Hitters.csv"
+          },
+          {
+            "label": "Data set Heart Disease – processed.cleveland.data",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/processed.cleveland.data"
+          },
+          {
+            "label": "Python code – Example 2 – Heart Disease (complete guide)",
+            "url": "https://colab.research.google.com/drive/1r1qa9D3p3gFBVwV1KKoafcaOBu-ThS4d?usp=sharing"
+          },
+          {
+            "label": "Python code – Bagging, Random Forest and Boosting",
+            "url": "https://colab.research.google.com/drive/1jYqclZSRM8ES8PEE9vi07MDr6V8pNBkK?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Clustering",
+        "links": [
+          {
+            "label": "Slide Clustering",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/Clustering++-+Slide.pdf"
+          },
+          {
+            "label": "Python code – KMeans and Hierarchical Clustering",
+            "url": "https://colab.research.google.com/drive/19ZtXpTpLUolB8QEfTBB8zeYyx-zvNZzx?usp=sharing"
+          },
+          {
+            "label": "Python code – Clustering using NC160 Dataset",
+            "url": "https://colab.research.google.com/drive/139CQ-y3bnxxZuHfj0cxTHTfLSIfo1gp3?usp=sharing"
+          }
+        ]
+      },
+      {
+        "title": "Discussion Past Questions",
+        "links": [
+          {
+            "label": "Sept 2023",
+            "url": "https://utp-data-analytics.s3.ap-southeast-1.amazonaws.com/FE-Sept23-DA-FEM2063.pdf"
+          },
+          {
+            "label": "Link",
+            "url": "https://uitm.webex.com/uitm/j.php?MTID=m69fd4356864b105022546651d44beef5"
+          }
+        ]
+      }
+    ]
+  },
+  "courses": [
+    {
+      "code": "STA104",
+      "name": "Introduction to Statistics and Probability",
+      "tool": "Padlet",
+      "links": [
+        {
+          "label": "Notes",
+          "url": "http://padlet.com/mna_nasir/STA104"
+        },
+        {
+          "label": "Register Padlet",
+          "url": "https://padlet.com/referrals/mna_nasir"
+        }
+      ]
+    },
+    {
+      "code": "QMT261",
+      "name": "Mathematical Statistics II",
+      "tool": "Padlet",
+      "links": [
+        {
+          "label": "Notes",
+          "url": "http://padlet.com/mna_nasir/qmt261"
+        },
+        {
+          "label": "A4CS1124A",
+          "url": "https://padlet.com/mna_nasir/QMT261A"
+        },
+        {
+          "label": "Register Padlet",
+          "url": "https://padlet.com/referrals/mna_nasir"
+        }
+      ]
+    },
+    {
+      "code": "STA150",
+      "name": "STA150",
+      "tool": "Flipgrid & oodlu",
+      "links": [
+        {
+          "label": "Flipgrid",
+          "url": "https://flipgrid.com/sta150"
+        },
+        {
+          "label": "oodlu",
+          "url": "https://oodlu.org/home"
+        }
+      ]
+    },
+    {
+      "code": "STA333",
+      "name": "Statistical Software",
+      "tool": "Flipgrid",
+      "links": [
+        {
+          "label": "Flipgrid",
+          "url": "https://flipgrid.com/sta333"
+        }
+      ]
+    },
+    {
+      "code": "EUD102",
+      "name": "EUD102",
+      "tool": "Padlet & Flipgrid",
+      "links": [
+        {
+          "label": "Study Skills (Padlet)",
+          "url": "https://padlet.com/mna_nasir/StudySkills"
+        },
+        {
+          "label": "Introduce UED (Padlet)",
+          "url": "https://padlet.com/mna_nasir/IntroduceUED"
+        },
+        {
+          "label": "Flipgrid",
+          "url": "https://flipgrid.com/ued102"
+        }
+      ]
+    },
+    {
+      "code": "SPSS",
+      "name": "Statistical Software – SPSS",
+      "tool": "Members only",
+      "links": [
+        {
+          "label": "Open SPSS page (log in required)",
+          "url": "https://nasirdrive1.wixsite.com/nasir916/copy-of-r-course"
+        }
+      ]
+    }
+  ]
+}

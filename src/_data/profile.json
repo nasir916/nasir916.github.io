@@ -1,0 +1,76 @@
+{
+  "name": "Dr. Mohammad Nasir Abdullah",
+  "role": "Senior Lecturer, Department of Statistics",
+  "org": "Universiti Teknologi MARA (UiTM), Perak Branch, Tapah Campus",
+  "photo": "https://static.wixstatic.com/media/e47301_4d67e4b984054fdb8d2ecd72cb64344c~mv2.png",
+  "address": "Department of Statistics, Faculty of Computer and Mathematical Sciences, Universiti Teknologi MARA, Perak Branch, 35400 Tapah Campus, Perak, Malaysia.",
+  "bio": [
+    "Meet Dr. Mohammad Nasir Abdullah, a senior lecturer in the Department of Statistics at Universiti Teknologi MARA, Tapah Campus. With a first degree in statistics from UiTM under his belt, Dr. Nasir ventured into the professional world as a data analyst and a business analyst for both multinational and local companies.",
+    "Fuelled by a passion for numbers, Dr. Nasir continued his academic pursuit, earning his second degree from USM and a certification as a data science specialist. In 2011, Dr. Nasir took the leap and became a lecturer, imparting his knowledge on mathematical statistics, probability and statistics, operation research, research methodology, statistical software, and statistical programming to eager students at diploma and degree levels.",
+    "In 2022, Dr. Nasir was awarded his PhD in Statistics from UiTM, cementing his place as a respected and knowledgeable authority in the field. Dr. Nasir's current research interest lies in machine learning classifiers in data classification, with a particular focus on regularisation techniques."
+  ],
+  "academic": [
+    "PhD (Statistics), UiTM",
+    "Master of Science (Medical Statistics), USM",
+    "Bachelor of Science (hons) (Statistics), UiTM",
+    "Diploma in Statistics, UiTM",
+    "Certified Data Science Specialist, iTrainAsia"
+  ],
+  "interests": [
+    "Machine learning (support vector machine, random forest, naive bayes, k-nearest neighbor)",
+    "Categorical data analysis",
+    "Classification",
+    "Data sciences",
+    "Logistic regression"
+  ],
+  "researchIds": [
+    {
+      "label": "My Research ID",
+      "url": "https://publons.com/researcher/2938939/mohammad-nasir-abdullah/"
+    },
+    {
+      "label": "Scopus ID",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=57208131069"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-3134-4645"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?hl=en&user=bA97_V8AAAAJ"
+    }
+  ],
+  "social": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/c/mohammadnasirabdullah"
+    },
+    {
+      "label": "TikTok",
+      "url": "https://www.tiktok.com/@drnasir916"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/mohammad-nasir-abdullah-14a6b284/"
+    },
+    {
+      "label": "X (Twitter)",
+      "url": "https://twitter.com/nasir_936"
+    }
+  ],
+  "podcast": [
+    {
+      "label": "Apple Podcasts",
+      "url": "https://podcasts.apple.com/my/podcast/talking-statistics/id1560425710"
+    },
+    {
+      "label": "Spotify",
+      "url": "https://open.spotify.com/show/447mKBgbro2CIp1ZAFSZ11"
+    },
+    {
+      "label": "Google Podcasts",
+      "url": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy81MzQwMjYyOC9wb2RjYXN0L3Jzcw=="
+    }
+  ]
+}

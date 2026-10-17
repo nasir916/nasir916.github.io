@@ -1,0 +1,190 @@
+{
+  "items": [
+    {
+      "title": "Guest Lecturer @Binus University, Indonesia",
+      "subtitle": "Introduction to Probability",
+      "date": "20 October 2022",
+      "venue": "Zoom",
+      "organizer": "Binus University, School of Computer Science, Jakarta, Indonesia"
+    },
+    {
+      "title": "Guest Lecturer @Binus University, Indonesia",
+      "subtitle": "Basic Probability",
+      "date": "11 April 2022",
+      "venue": "Webex",
+      "organizer": "Binus University, School of Computer Science, Jakarta, Indonesia"
+    },
+    {
+      "title": "Using R for Data Analytics",
+      "subtitle": "",
+      "date": "1st April 2022",
+      "venue": "Google Meet & YouTube",
+      "organizer": "HITeL, hub for innovative teaching & learning, UiTM Perak",
+      "linkLabel": "Watch on YouTube",
+      "link": "https://www.youtube.com/watch?v=_lfX0CAxWEU"
+    },
+    {
+      "title": "Workshop on Introduction to Statistics",
+      "subtitle": "",
+      "date": "9 – 10 March 2021",
+      "venue": "MS Teams",
+      "organizer": "Institut Latihan Statistik Malaysia, Department of Statistics, Malaysia.",
+      "linkLabel": "Slides (PDF)",
+      "link": "https://a423e68d-6244-4c7b-b12d-a2922490066a.filesusr.com/ugd/e47301_34bb7c73f97b439886b810fc64a27a4c.pdf"
+    },
+    {
+      "title": "Guest Lecturer @Binus University, Indonesia",
+      "subtitle": "R Programming",
+      "date": "23 November 2020",
+      "venue": "Google Meet",
+      "organizer": "Binus University, Indonesia"
+    },
+    {
+      "title": "Speaker on confeRence 2020",
+      "subtitle": "Topic: Craving for online data – the art of web scrapping",
+      "date": "21 November 2020",
+      "venue": "Webex",
+      "organizer": "Malaysia R user Group & USM"
+    },
+    {
+      "title": "Training on Basic R Programming",
+      "subtitle": "",
+      "date": "6 October 2020 & 7 October 2020",
+      "venue": "Google Meet",
+      "organizer": "Universiti Teknologi Petronas"
+    },
+    {
+      "title": "Training Workshop Data Sciences: Introduction to R Programming",
+      "subtitle": "",
+      "date": "15 July 2019 & 16 July 2019",
+      "venue": "Big Data Lab, Universiti Teknologi MARA, Cawangan Selangor, Kampus Puncak Alam.",
+      "organizer": "Big Data Lab UCS",
+      "linkLabel": "Slides (PDF)",
+      "link": "https://a423e68d-6244-4c7b-b12d-a2922490066a.filesusr.com/ugd/e47301_7c99006b674f4f41b21808324c41e824.pdf"
+    },
+    {
+      "title": "Training on Introduction to R",
+      "subtitle": "",
+      "date": "18 June 2019 & 19 June 2019",
+      "venue": "Makmal Komputer 2, Fakulti Pengurusan Maklumat, Universiti Teknologi MARA, Cawangan Selangor, Kampus Puncak Perdana.",
+      "organizer": "Fakulti Pengurusan Maklumat",
+      "linkLabel": "Slides (PDF)",
+      "link": "https://a423e68d-6244-4c7b-b12d-a2922490066a.filesusr.com/ugd/e47301_899a96359e2345559844fdbabeb288c6.pdf"
+    },
+    {
+      "title": "Workshop on Introduction to Statistics",
+      "subtitle": "",
+      "date": "7 March 2019 & 8 March 2019",
+      "venue": "Bilik Delta 2, Aras 1, Blok Pentadbiran, Institut Latihan Statistik Malaysia, Sungkai, Perak.",
+      "organizer": "Institut Latihan Statistik Malaysia, Department of Statistics, Malaysia.",
+      "linkLabel": "Slides (PDF)",
+      "link": "https://a423e68d-6244-4c7b-b12d-a2922490066a.filesusr.com/ugd/e47301_afde2cc8614a4ce39a9afd5ddbe3fcbc.pdf"
+    },
+    {
+      "title": "Training Core workshop for Grade E29 Series 2: Data Processing using IBM SPSS Statistics",
+      "subtitle": "",
+      "date": "12 October 2018 & 13 October 2018",
+      "venue": "Makmal Logarithma 1, Aras G, Blok Pentadbiran, Institut Latihan Statistik Malaysia, Sungkai Perak.",
+      "organizer": "Institut Latihan Statistik Malaysia, Department of Statistics, Malaysia.",
+      "linkLabel": "Slides (PDF)",
+      "link": "https://a423e68d-6244-4c7b-b12d-a2922490066a.filesusr.com/ugd/e47301_1759676aec7b445fae0fd3a671032d43.pdf"
+    },
+    {
+      "title": "Training Core workshop for Grade E41: Data Analysis using IBM SPSS Statistics",
+      "subtitle": "",
+      "date": "16 July 2018 & 17 July 2018",
+      "venue": "Makmal Logarithma 3, Aras G, Blok Pentadbiran, Institut Latihan Statistik Malaysia, Sungkai Perak.",
+      "organizer": "Institut Latihan Statistik Malaysia, Department of Statistics, Malaysia.",
+      "linkLabel": "Slides (PDF)",
+      "link": "https://a423e68d-6244-4c7b-b12d-a2922490066a.filesusr.com/ugd/e47301_1759676aec7b445fae0fd3a671032d43.pdf"
+    },
+    {
+      "title": "Training Series on Data Science using R Programming",
+      "subtitle": "",
+      "date": "16 November 2017",
+      "venue": "Big Data Lab, Universiti Teknologi MARA, Tapah Campus",
+      "organizer": "Big Data Lab, Tapah."
+    },
+    {
+      "title": "Speaker on Bioinformatics – Driven Discovery of Biomarkers For Alzheimer's Disease",
+      "subtitle": "Title: R for finding biomarker for Alzheimer’s disease",
+      "date": "4 August 2017",
+      "venue": "Bilik Komputer, Makmal Hentian Siber, Universiti Kebangsaan Malaysia.",
+      "organizer": "Fakulti Sains Kesihatan, Universiti Kebangsaan Malaysia",
+      "linkLabel": "Slides (PDF)",
+      "link": "https://a423e68d-6244-4c7b-b12d-a2922490066a.filesusr.com/ugd/e47301_9a8c1485dbcc400692e1a525e17635c2.pdf"
+    },
+    {
+      "title": "Training Core workshop for Grade E41: Data Analysis using IBM SPSS Statistics",
+      "subtitle": "",
+      "date": "27 April 2017",
+      "venue": "Makmal Logarithma 3, Aras G, Blok Pentadbiran, Institut Latihan Statistik Malaysia, Sungkai Perak.",
+      "organizer": "Institut Latihan Statistik Malaysia, Department of Statistics, Malaysia.",
+      "linkLabel": "Slides (PDF)",
+      "link": "https://a423e68d-6244-4c7b-b12d-a2922490066a.filesusr.com/ugd/e47301_2ac387d33697457a9f7fa9b71ae3d60d.pdf"
+    },
+    {
+      "title": "Training workshop for Data Analysis using IBM SPSS Statistics",
+      "subtitle": "",
+      "date": "23 February 2017",
+      "venue": "Makmal PTAR, Universiti Teknologi MARA, Perak Branch, Tapah Campus, Perak.",
+      "organizer": "Fakulti Sains Gunaan, UiTM Perak"
+    },
+    {
+      "title": "Training Core workshop for Grade E41: Data Analysis using IBM SPSS Statistics",
+      "subtitle": "",
+      "date": "22 November 2016 & 23 November 2016",
+      "venue": "Makmal Logarithma 3, Aras G, Blok Pentadbiran, Institut Latihan Statistik Malaysia, Sungkai Perak.",
+      "organizer": "Institut Latihan Statistik Malaysia, Department of Statistics, Malaysia."
+    },
+    {
+      "title": "Training Core workshop for Grade E29: Data Processing using IBM SPSS Statistics",
+      "subtitle": "",
+      "date": "27, 28, 29 & 30 September 2016",
+      "venue": "Makmal Logarithma 3, Aras G, Blok Pentadbiran, Institut Latihan Statistik Malaysia, Sungkai Perak.",
+      "organizer": "Institut Latihan Statistik Malaysia, Department of Statistics, Malaysia.",
+      "linkLabel": "Slides (PDF)",
+      "link": "https://a423e68d-6244-4c7b-b12d-a2922490066a.filesusr.com/ugd/e47301_30bfb0206e1f458395b01466c73b4e5c.pdf"
+    },
+    {
+      "title": "Training workshop on Advance Data Analysis using IBM SPSS Statistics",
+      "subtitle": "",
+      "date": "20, 21 & 22 August 2015",
+      "venue": "Makmal Logarithma 3, Aras G, Blok Pentadbiran, Institut Latihan Statistik Malaysia, Sungkai Perak.",
+      "organizer": "State Department of Health, Negeri Sembilan Darul Khusus",
+      "linkLabel": "Slides (PDF)",
+      "link": "https://a423e68d-6244-4c7b-b12d-a2922490066a.filesusr.com/ugd/e47301_8992b6f6e98f4560b9bb50c8393da0f5.pdf"
+    },
+    {
+      "title": "Training workshop on Data Analysis and Interpretation for Subject OSM662",
+      "subtitle": "",
+      "date": "25 May 2015",
+      "venue": "Bilik Seminar iLQAM, Universiti Teknologi MARA, Kampus Seri Iskandar, Perak",
+      "organizer": "Fakulti Pengurusan Pejabat, Universiti Teknologi MARA",
+      "linkLabel": "Slides (PDF)",
+      "link": "https://a423e68d-6244-4c7b-b12d-a2922490066a.filesusr.com/ugd/e47301_1c7d84506dfd4b63b78e4adb3995a5fa.pdf"
+    },
+    {
+      "title": "Training workshop on Data Analysis using STATA",
+      "subtitle": "",
+      "date": "14 May 2015 & 15 May 2015",
+      "venue": "Makmal Komputer, Fakulti Sains Komputer dan Matematik, Universiti Teknologi MARA, Tapah Campus.",
+      "organizer": "iILQAM UiTM Perak",
+      "linkLabel": "Slides (PDF)",
+      "link": "https://a423e68d-6244-4c7b-b12d-a2922490066a.filesusr.com/ugd/e47301_3b75098c208044b097c6d833b2c3bb63.pdf"
+    }
+  ],
+  "photos": [
+    "https://static.wixstatic.com/media/e47301_bc2043f715f348ff83e0c0c873475c3f~mv2.png",
+    "https://static.wixstatic.com/media/e47301_b1a44739c1a845998319095617a5d434~mv2.jpeg",
+    "https://static.wixstatic.com/media/e47301_171f866c952a4306818b4237d8e17c2d~mv2.jpeg",
+    "https://static.wixstatic.com/media/e47301_ae08d7b8cb70402fa2a9bbc08c1a105d~mv2.png",
+    "https://static.wixstatic.com/media/e47301_4b0320b90f5a4e9ea707e8983c88c223~mv2.jpg",
+    "https://static.wixstatic.com/media/e47301_fb3f2a5e6ac84f41b1ae363c55e2bc76~mv2.jpg",
+    "https://static.wixstatic.com/media/e47301_9c97b26e8c124f5c8f641b175e9738a8~mv2.jpg",
+    "https://static.wixstatic.com/media/e47301_c1544f2cd0cd461db9e6f9e04f4302f4~mv2.jpg",
+    "https://static.wixstatic.com/media/e47301_6b739ec356bc45aa9405159e8da59980~mv2.jpg",
+    "https://static.wixstatic.com/media/e47301_6217cf6953eb4d94919bd7cc2de7cfc0~mv2.jpg",
+    "https://static.wixstatic.com/media/e47301_1c28bbb68e074548b4f2a66fa4c76b82~mv2.jpg"
+  ]
+}

@@ -1,0 +1,29 @@
+---
+layout: base.njk
+section: teaching
+title: Teaching
+permalink: /teaching/
+---
+{% macro lessons(list) %}{% for l in list %}<li><a href="{{ l.url }}" target="_blank" rel="noopener"><span><span class="num">{{ loop.index }}</span>{{ l.label }}</span></a>{% if l.sub %}<ul class="linklist sub">{% for s in l.sub %}<li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }}</a></li>{% endfor %}</ul>{% endif %}</li>{% endfor %}{% endmacro %}
+<section class="article-head"><div class="wrap"><span class="eyebrow">Teaching</span><h1>Courses, workshops &amp; materials</h1><p class="lead">Lecture notes, slides, datasets and code for students and workshop participants.</p>
+  <div class="btns" style="margin-top:20px"><a class="btn primary" href="{{ teaching.practice.url }}" target="_blank" rel="noopener">Practice STA334 portal ↗</a><a class="btn ghost" href="#data-analytics">Data Analytics course</a><a class="btn ghost" href="#courses">Course pages</a></div></div></section>
+
+<section id="basic-r"><div class="wrap"><span class="eyebrow">Workshop</span><h2>Basic R-Programming</h2><div class="rule"></div>
+  <p class="lead" style="margin:22px 0 28px">{{ teaching.basicR.intro }}</p>
+  <div class="two">
+    <div class="panel"><h3>Day 1</h3><ul class="linklist">{{ lessons(teaching.basicR.day1) }}</ul></div>
+    <div class="panel"><h3>Day 2</h3><ul class="linklist">{{ lessons(teaching.basicR.day2) }}</ul>
+      <div style="margin-top:26px;padding-top:20px;border-top:1px solid var(--line)"><h3 style="font-size:20px">Data IntroR</h3><p style="margin:0 0 12px;color:var(--muted)">{{ teaching.basicR.dataset.label }}</p><a class="btn ghost" href="{{ teaching.basicR.dataset.url }}" target="_blank" rel="noopener">Download here</a></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="alt" id="data-analytics"><div class="wrap"><span class="eyebrow">Course</span><h2>Data Analytics</h2><div class="rule"></div>
+  <p class="lead" style="margin:22px 0 10px">{{ teaching.dataAnalytics.intro }}</p>
+  <p style="margin:0 0 28px"><strong>Assignment:</strong> {{ teaching.dataAnalytics.assignment }}</p>
+  <div class="grid g3">{% for t in teaching.dataAnalytics.topics %}<div class="panel"><h3 style="font-size:20px"><span class="num">{{ loop.index }}</span>{{ t.title }}</h3><ul class="linklist">{% for l in t.links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></li>{% endfor %}</ul></div>{% endfor %}</div>
+</div></section>
+
+<section id="courses"><div class="wrap"><span class="eyebrow">Course pages</span><h2>Subjects I teach</h2><div class="rule"></div>
+  <div class="grid g3" style="margin-top:28px">{% for c in teaching.courses %}<div class="panel"><span class="eyebrow">{{ c.code }} · {{ c.tool }}</span><h3 style="font-size:21px">{{ c.name }}</h3><ul class="linklist">{% for l in c.links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></li>{% endfor %}</ul></div>{% endfor %}</div>
+</div></section>

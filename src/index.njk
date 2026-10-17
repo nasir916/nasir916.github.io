@@ -1,0 +1,50 @@
+---
+layout: base.njk
+section: home
+title: My Inference
+---
+<section class="hero"><div class="wrap hero-grid">
+  <div>
+    <span class="eyebrow">{{ site.tagline }}</span>
+    <h1>{{ profile.name }}</h1>
+    <p class="role">{{ profile.role }}</p>
+    <p class="org">{{ profile.org }}</p>
+    <p class="intro">Notes, tutorials, course materials and articles on statistics, R programming and machine learning, shared through <strong>My Inference</strong> since 2017.</p>
+    <div class="btns"><a class="btn primary" href="{{ '/blog/' | url }}">Read the blog</a><a class="btn ghost" href="{{ '/teaching/' | url }}">Teaching materials</a></div>
+  </div>
+  <figure class="photo-card"><img src="{{ profile.photo }}" alt="Portrait of {{ profile.name }}"><figcaption class="cap">PhD in Statistics, UiTM</figcaption></figure>
+</div></section>
+
+<section style="padding:44px 0 8px"><div class="wrap"><div class="creds">
+  <div class="cred"><b>PhD (Statistics)</b><span>Universiti Teknologi MARA</span></div>
+  <div class="cred"><b>MSc (Medical Statistics)</b><span>Universiti Sains Malaysia</span></div>
+  <div class="cred"><b>BSc (Hons) Statistics</b><span>Universiti Teknologi MARA</span></div>
+  <div class="cred"><b>Certified Data Science Specialist</b><span>iTrainAsia</span></div>
+</div></div></section>
+
+<section><div class="wrap">
+  <div class="sec-head"><div><span class="eyebrow">From the blog</span><h2>Latest articles</h2><div class="rule"></div></div><a class="btn ghost" href="{{ '/blog/' | url }}">All articles</a></div>
+  <div class="grid g3">{% for post in collections.posts | limit(6) %}{% include "card.njk" %}{% endfor %}</div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <div class="sec-head"><div><span class="eyebrow">Teaching</span><h2>Learn with me</h2><div class="rule"></div></div></div>
+  <div class="grid g3">
+    <article class="card"><a class="stretch" href="{{ '/teaching/' | url }}#basic-r"><div class="body"><span class="eyebrow">Workshop</span><h3>Basic R-Programming</h3><p>A two-day introductory workshop: RStudio, data frames, graphs, t-test, ANOVA, regression and machine learning.</p><span class="more">View the lessons</span></div></a></article>
+    <article class="card"><a class="stretch" href="{{ '/teaching/' | url }}#data-analytics"><div class="body"><span class="eyebrow">Course</span><h3>Data Analytics</h3><p>Slides, datasets and Python notebooks for {{ teaching.dataAnalytics.topics | length }} topics, from regression to clustering.</p><span class="more">Open course materials</span></div></a></article>
+    <article class="card"><a class="stretch" href="{{ teaching.practice.url }}" target="_blank" rel="noopener"><div class="body"><span class="eyebrow">Practice portal</span><h3>Practice STA334</h3><p>An interactive R practice portal for STA334 students.</p><span class="more">Start practising ↗</span></div></a></article>
+  </div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="sec-head"><div><span class="eyebrow">Research</span><h2>Areas of interest</h2><div class="rule"></div></div></div>
+  <div class="two"><div><div class="chips">{% for i in profile.interests %}<span class="chip">{{ i }}</span>{% endfor %}</div>
+    <p style="margin-top:22px;color:var(--muted)">{{ profile.bio[2] }}</p></div>
+    <div class="panel"><h3>Research profiles</h3><ul class="linklist">{% for r in profile.researchIds %}<li><a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.label }}</a></li>{% endfor %}</ul></div></div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <div class="sec-head"><div><span class="eyebrow">Podcast</span><h2>Talking Statistics</h2><div class="rule"></div></div></div>
+  <p class="lead" style="margin-top:-8px">Listen to the Talking Statistics podcast and watch video lessons on YouTube and TikTok.</p>
+  <div class="btns" style="margin-top:18px">{% for s in profile.podcast %}<a class="btn ghost" href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }}</a>{% endfor %}{% for s in profile.social | limit(2) %}<a class="btn ghost" href="{{ s.url }}" target="_blank" rel="noopener">{{ s.label }}</a>{% endfor %}</div>
+</div></section>

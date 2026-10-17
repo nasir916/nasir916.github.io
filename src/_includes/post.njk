@@ -1,0 +1,20 @@
+---
+layout: base.njk
+section: blog
+---
+<header class="article-head"><div class="wrap">
+  <a class="back" href="{{ '/blog/' | url }}">← All articles</a>
+  {% if categories[0] %}<div><span class="eyebrow">{{ categories | join(' · ') }}</span></div>{% endif %}
+  <h1>{{ title }}</h1>
+  <div class="meta">{{ site.author }} · {{ page.date | readableDate }} · {{ content | readingTime }} min read</div>
+</div></header>
+<article class="prose">
+{{ content | safe }}
+<hr>
+{% set prev = collections.posts | getPreviousCollectionItem %}
+{% set next = collections.posts | getNextCollectionItem %}
+<nav class="pn" aria-label="More articles">
+  {% if next %}<a href="{{ next.url | url }}"><small>← Older</small>{{ next.data.title }}</a>{% else %}<span></span>{% endif %}
+  {% if prev %}<a href="{{ prev.url | url }}" style="text-align:right"><small>Newer →</small>{{ prev.data.title }}</a>{% endif %}
+</nav>
+</article>

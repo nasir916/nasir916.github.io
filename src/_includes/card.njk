@@ -1,0 +1,12 @@
+<article class="card" data-cats="{{ post.data.categories | join('|') }}" data-text="{{ (post.data.title + ' ' + (post.content | excerpt(300))) | lower }}">
+  <a class="stretch" href="{{ post.url | url }}">
+    {% if post.data.image %}<div class="cover"><img src="{{ post.data.image }}" alt="" loading="lazy"></div>
+    {% else %}<div class="cover plain"><div><small>{{ post.data.categories[0] or site.title }}</small>{{ post.data.title }}</div></div>{% endif %}
+    <div class="body">
+      <div class="meta">{{ post.date | readableDate }} · {{ post.content | readingTime }} min read{% if post.data.categories[0] %} · {{ post.data.categories[0] }}{% endif %}</div>
+      <h3>{{ post.data.title }}</h3>
+      <p>{{ post.content | excerpt(150) }}</p>
+      <span class="more">Read article</span>
+    </div>
+  </a>
+</article>

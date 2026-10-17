@@ -1,0 +1,40 @@
+{
+  "ml": [
+    {
+      "title": "Random Forest",
+      "description": "Lecture notes on the Random Forest classifier.",
+      "url": "https://randomforest1.s3.ap-southeast-1.amazonaws.com/Random_Forest_notes.html"
+    },
+    {
+      "title": "k-Nearest Neighbor",
+      "description": "Lecture notes on the k-Nearest Neighbor classifier.",
+      "url": "https://nearestneighbour.s3.ap-southeast-1.amazonaws.com/K-NN.html"
+    }
+  ],
+  "dashboards": [
+    {
+      "title": "FlexDashboard",
+      "url": "https://hitel2022.s3.ap-southeast-1.amazonaws.com/Dashboard.html"
+    },
+    {
+      "title": "Twitter Sentiment",
+      "url": "https://nasirthegreats.shinyapps.io/Shiny/"
+    },
+    {
+      "title": "COVID-19",
+      "url": "https://mohammad-nasir-abdullah.shinyapps.io/New12/"
+    },
+    {
+      "title": "Hackathon 2019",
+      "url": "https://nasir916.shinyapps.io/nasir916/"
+    },
+    {
+      "title": "Leaflet Map",
+      "url": "https://myinference.000webhostapp.com/Leaflet_Map.html"
+    },
+    {
+      "title": "DataCamp 2019 Tapah",
+      "url": "https://myinference.000webhostapp.com/Dashboard-datacamp-July---Sept-2019.html"
+    }
+  ]
+}

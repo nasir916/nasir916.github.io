@@ -1,0 +1,97 @@
+# Settings for Pages CMS (https://app.pagescms.org) – the friendly editor for this website.
+media:
+  input: src/assets/img
+  output: /assets/img
+
+content:
+  - name: posts
+    label: Blog posts
+    type: collection
+    path: src/posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date]
+      sort: [date]
+      default:
+        sort: date
+        order: desc
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: date, label: Date, type: date, options: { time: true } }
+      - { name: slug, label: Web address (short, lowercase, use-dashes), type: string, required: true }
+      - name: categories
+        label: Categories
+        type: select
+        list: true
+        options:
+          creatable: true
+          values: [R-Programming, My Thinking, Public Lecture, Machine Learning, browsing]
+      - { name: image, label: Cover image, type: image }
+      - { name: body, label: Content, type: rich-text }
+
+  - name: profile
+    label: About me
+    type: file
+    path: src/_data/profile.json
+    format: json
+    fields:
+      - { name: name, label: Name, type: string }
+      - { name: role, label: Position, type: string }
+      - { name: org, label: Institution, type: string }
+      - { name: photo, label: Photo, type: image }
+      - { name: address, label: Address, type: text }
+      - { name: bio, label: Biography paragraphs, type: text, list: true }
+      - { name: academic, label: Academic qualifications, type: string, list: true }
+      - { name: interests, label: Areas of interest, type: string, list: true }
+      - name: researchIds
+        label: Research profiles
+        type: object
+        list: true
+        fields: [{ name: label, type: string }, { name: url, type: string }]
+      - name: social
+        label: Social links
+        type: object
+        list: true
+        fields: [{ name: label, type: string }, { name: url, type: string }]
+      - name: podcast
+        label: Podcast links
+        type: object
+        list: true
+        fields: [{ name: label, type: string }, { name: url, type: string }]
+
+  - name: talks
+    label: Talks & training
+    type: file
+    path: src/_data/talks.json
+    format: json
+    fields:
+      - name: items
+        label: Talks (newest first)
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: subtitle, label: Subtitle / topic, type: string }
+          - { name: date, label: Date (as text), type: string }
+          - { name: venue, label: Venue, type: string }
+          - { name: organizer, label: Organizer, type: string }
+          - { name: linkLabel, label: Link label (e.g. Slides (PDF)), type: string }
+          - { name: link, label: Link URL, type: string }
+      - { name: photos, label: Photos, type: image, list: true }
+
+  - name: projects
+    label: Projects & dashboards
+    type: file
+    path: src/_data/projects.json
+    format: json
+    fields:
+      - name: ml
+        label: Machine learning notes
+        type: object
+        list: true
+        fields: [{ name: title, type: string }, { name: description, type: string }, { name: url, type: string }]
+      - name: dashboards
+        label: Dashboards
+        type: object
+        list: true
+        fields: [{ name: title, type: string }, { name: url, type: string }]

@@ -1,0 +1,16 @@
+---
+layout: base.njk
+section: about
+title: About
+permalink: /about/
+---
+<section class="hero"><div class="wrap hero-grid">
+  <div><span class="eyebrow">About me</span><h1>{{ profile.name }}</h1><p class="role">{{ profile.role }}</p><p class="org">{{ profile.org }}</p>
+    {% for b in profile.bio %}<p>{{ b }}</p>{% endfor %}</div>
+  <figure class="photo-card"><img src="{{ profile.photo }}" alt="Portrait of {{ profile.name }}"></figure>
+</div></section>
+<section><div class="wrap two">
+  <div class="panel"><h3>Academic</h3><ul class="linklist">{% for a in profile.academic %}<li style="padding:12px 2px;font-weight:600"><span class="num">{{ loop.index }}</span>{{ a }}</li>{% endfor %}</ul></div>
+  <div class="panel"><h3>Area of interest</h3><div class="chips">{% for i in profile.interests %}<span class="chip">{{ i }}</span>{% endfor %}</div>
+    <h3 style="margin-top:26px">My research ID</h3><ul class="linklist">{% for r in profile.researchIds %}<li><a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.label }}</a></li>{% endfor %}</ul></div>
+</div></section>
