@@ -25,7 +25,7 @@ content:
         list: true
         options:
           creatable: true
-          values: [R-Programming, My Thinking, Public Lecture, Machine Learning, browsing]
+          values: [R-Programming, My Thinking, Public Lecture, Machine Learning, AI in Education, browsing]
       - { name: image, label: Cover image, type: image }
       - { name: body, label: Content, type: rich-text }
 
