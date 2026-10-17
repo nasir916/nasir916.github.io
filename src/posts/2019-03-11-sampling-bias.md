@@ -3,7 +3,7 @@ title: "Sampling Bias"
 date: 2019-03-11T15:08:42.217Z
 slug: sampling-bias
 categories: ["browsing"]
-image: "https://static.wixstatic.com/media/e47301_8f018d81bc53406a9ac4e905048bf56a~mv2.png"
+image: "/assets/img/e47301_8f018d81bc53406a9ac4e905048bf56a.png"
 ---
 
 Sampling bias means that the samples of a stochastic variable that are collected to determine its distribution are selected incorrectly and do not represent the true distribution because of non-random reasons.
@@ -18,6 +18,6 @@ p/s: These note are from [here!](www.scholarpedia.org/article/Sampling_bias)
 
 Picture below, are taken from randomly from internet!~
 
-![](https://static.wixstatic.com/media/e47301_8f018d81bc53406a9ac4e905048bf56a~mv2.png)
+![](/assets/img/e47301_8f018d81bc53406a9ac4e905048bf56a.png)
 
-![](https://static.wixstatic.com/media/e47301_e3f5985ba2d34201afdaf09d8b136998~mv2_d_1280_1707_s_2.png)
+![](/assets/img/e47301_e3f5985ba2d34201afdaf09d8b136998.png)

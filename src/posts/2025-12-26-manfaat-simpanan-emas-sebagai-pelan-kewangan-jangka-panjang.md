@@ -3,10 +3,10 @@ title: "Manfaat Simpanan Emas Sebagai Pelan Kewangan Jangka Panjang"
 date: 2025-12-26T13:59:33.941Z
 slug: manfaat-simpanan-emas-sebagai-pelan-kewangan-jangka-panjang
 categories: []
-image: "https://static.wixstatic.com/media/e47301_e8140945a38249a6a20d80732f03c2bb~mv2.png"
+image: "/assets/img/e47301_e8140945a38249a6a20d80732f03c2bb.png"
 ---
 
-![](https://static.wixstatic.com/media/e47301_e8140945a38249a6a20d80732f03c2bb~mv2.png)
+![](/assets/img/e47301_e8140945a38249a6a20d80732f03c2bb.png)
 
 Dalam dunia kewangan hari ini yang penuh ketidaktentuan, semakin ramai individu mula sedar bahawa **menyimpan wang semata-mata tidak lagi mencukupi**. Nilai wang kertas semakin terhakis akibat inflasi, kos sara hidup meningkat, dan kuasa beli menurun dari tahun ke tahun.Di sinilah **emas** memainkan peranan penting sebagai pelindung nilai dan instrumen simpanan jangka panjang yang terbukti kukuh sejak beribu tahun.
 

@@ -3,14 +3,14 @@ title: "All About Google Gemini: A Breakthrough in AI Technology"
 date: 2023-12-11T08:09:34.516Z
 slug: all-about-google-gemini-a-breakthrough-in-ai-technology
 categories: []
-image: "https://static.wixstatic.com/media/e47301_9e22e8398a8243e9a77a407e8d728ede~mv2.png"
+image: "/assets/img/e47301_9e22e8398a8243e9a77a407e8d728ede.png"
 ---
 
 ### **Introduction**
 
 Google Gemini is a groundbreaking advancement in artificial intelligence (AI) technology. This multimodal AI model is designed to revolutionize the way we interact with computers and access information. In this blog, we will explore the key features and capabilities of Google Gemini, along with its potential applications in various fields.
 
-![](https://static.wixstatic.com/media/e47301_9e22e8398a8243e9a77a407e8d728ede~mv2.png)
+![](/assets/img/e47301_9e22e8398a8243e9a77a407e8d728ede.png)
 
 ### **Understanding the Mission of Google Gemini**
 

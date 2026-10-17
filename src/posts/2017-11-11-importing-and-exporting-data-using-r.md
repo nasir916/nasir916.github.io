@@ -3,10 +3,10 @@ title: "How to import and export data using R-programming"
 date: 2017-11-11T11:46:00Z
 slug: importing-and-exporting-data-using-r
 categories: ["R-Programming"]
-image: "https://static.wixstatic.com/media/e47301_6237211c201246efa44fc4bfbc436597~mv2.jpg"
+image: "/assets/img/e47301_6237211c201246efa44fc4bfbc436597.jpg"
 ---
 
-![](https://static.wixstatic.com/media/e47301_6237211c201246efa44fc4bfbc436597~mv2.jpg)
+![](/assets/img/e47301_6237211c201246efa44fc4bfbc436597.jpg)
 
 Introduction 
 

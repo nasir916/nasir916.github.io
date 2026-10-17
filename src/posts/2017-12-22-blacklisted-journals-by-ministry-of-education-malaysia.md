@@ -3,7 +3,7 @@ title: "Blacklisted Journals by Ministry of Education, Malaysia"
 date: 2017-12-22T10:07:23.971Z
 slug: blacklisted-journals-by-ministry-of-education-malaysia
 categories: ["My Thinking"]
-image: "https://static.wixstatic.com/media/e47301_653b0c1be0cb4612a039efbbc54c7760~mv2.png"
+image: "/assets/img/e47301_653b0c1be0cb4612a039efbbc54c7760.png"
 ---
 
 Here below are the blacklisted journal by Ministry of Education, Malaysia. This information was took from RMIC Universiti Utara Malaysia through this [link](rimc.uum.edu.my/index.php/en/publication/blacklisted-journals-by-moe).
@@ -184,4 +184,4 @@ FOUR (4) publishers NOT Recognized by Malaysia Ministry of Education (MOE):
 96. Journal of Public Administration and Policy Research  
 97. African Journal of Marketing Management(Source: ) 
 
-![](https://static.wixstatic.com/media/e47301_653b0c1be0cb4612a039efbbc54c7760~mv2.png)
+![](/assets/img/e47301_653b0c1be0cb4612a039efbbc54c7760.png)

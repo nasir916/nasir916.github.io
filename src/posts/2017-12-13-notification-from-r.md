@@ -3,7 +3,7 @@ title: "Notification from R!"
 date: 2017-12-13T15:49:44.915Z
 slug: notification-from-r
 categories: ["My Thinking"]
-image: "https://static.wixstatic.com/media/e47301_3b9f8505a7ef4b249c7c8f7aa9d42603~mv2.jpg"
+image: "/assets/img/e47301_3b9f8505a7ef4b249c7c8f7aa9d42603.jpg"
 ---
 
 When working with long executable script in R, we usually don't know when it can be done? and how long it will takes to complete the analysis?. For me, i am dealing with analysis of high - dimensional data where it took a lot of time to complete the whole analysis. Previously, i manually do check on my machine for the analysis (checking whether the analysis have done or not). Sometimes, i forgot to check the analysis and it kind a annoying when the analysis is not yet finish when you check it. 
@@ -18,4 +18,4 @@ In the next post, i will show how to use mentioned packages in R.
 
 Thanks!
 
-![Notification from R!](https://static.wixstatic.com/media/e47301_3b9f8505a7ef4b249c7c8f7aa9d42603~mv2.jpg)
+![Notification from R!](/assets/img/e47301_3b9f8505a7ef4b249c7c8f7aa9d42603.jpg)

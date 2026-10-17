@@ -3,7 +3,7 @@ title: "Introduction to Statistics: What It Is, Why It Matters and Its Main Type
 date: 2026-10-16T10:20:27.819Z
 slug: introduction-to-statistics-what-it-is-why-it-matters-and-its-main-types
 categories: []
-image: "https://static.wixstatic.com/media/e47301_cab516e92a6c43e899d31e8209199c22~mv2.png"
+image: "/assets/img/e47301_cab516e92a6c43e899d31e8209199c22.png"
 ---
 
 Every day we are surrounded by numbers: the price of petrol, the chance of rain this afternoon, the number of dengue cases in our district, or the CGPA on a transcript. Behind each of these numbers is statistics. In this post we will look at what statistics is, how it is used in real life, and the two main types of statistics that every beginner should know.
@@ -68,6 +68,6 @@ Two key terms to remember: the **population** is the entire group we want to lea
 
 Statistics is the science of learning from data. It helps doctors test treatments, businesses plan ahead, governments allocate resources, and all of us make sense of the numbers we see every day. Descriptive statistics tell us what the data show; inferential statistics help us draw conclusions beyond the data we have. The sketchnote below summarises the key ideas of this article.
 
-![Sketchnote summary: Introduction to Statistics – definition, statistical process, real-life uses and descriptive vs inferential statistics](https://static.wixstatic.com/media/e47301_cab516e92a6c43e899d31e8209199c22~mv2.png)
+![Sketchnote summary: Introduction to Statistics – definition, statistical process, real-life uses and descriptive vs inferential statistics](/assets/img/e47301_cab516e92a6c43e899d31e8209199c22.png)
 
 Feel free to save and share this sketchnote with your students and friends who are starting their statistics journey.

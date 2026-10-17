@@ -3,7 +3,7 @@ title: "Adab berdoa"
 date: 2021-07-08T16:51:57.413Z
 slug: adab-berdoa
 categories: []
-image: "https://static.wixstatic.com/media/e47301_fc24365b8ef34a698d2b942a6e96992e~mv2.png"
+image: "/assets/img/e47301_fc24365b8ef34a698d2b942a6e96992e.png"
 ---
 
 ### **Surah al-A’raf Ayat 55 – 57**
@@ -42,7 +42,7 @@ Dan selain dari itu, kita hendak menyeru Allah sama ada dalam doa dan dalam ziki
 
 ***Di dalam kitab Sahihain disebutkan dari Abu Musa Al-Asy’ari yang menceritakan bahawa suara orang-orang terdengar keras ketika mengucap­kan doa mereka. Maka Rasulullah Saw. bersabda:***
 
-![](https://static.wixstatic.com/media/e47301_fc24365b8ef34a698d2b942a6e96992e~mv2.png)
+![](/assets/img/e47301_fc24365b8ef34a698d2b942a6e96992e.png)
 
 ***Hai manusia, tenangkanlah diri kalian, kerana sesungguhnya kalian bukanlah menyeru (Tuhan) yang tuli dan bukan pula (Tuhan) yang ghaib, sesungguhnya Tuhan yang kalian seru itu Maha Mendengar lagi Maha dekat.***
 

@@ -3,7 +3,7 @@ title: "Data Analysis: The Art and Science of Unveiling Insights"
 date: 2023-11-29T05:23:21.559Z
 slug: data-analysis-the-art-and-science-of-unveiling-insights
 categories: []
-image: "https://static.wixstatic.com/media/e47301_cb76cf4f377d49118b68386d02de683f~mv2.png"
+image: "/assets/img/e47301_cb76cf4f377d49118b68386d02de683f.png"
 ---
 
 ### The Adventure of Data Analysis
@@ -14,7 +14,7 @@ For the author, completing an undergraduate degree in math marked a significant 
 
 A new opportunity arose in higher education, where the author was introduced to the world of business processes. Sitting in meetings, the author gained insights into how students enroll in classes and how enrollment data is collected and presented. Although the work was satisfactory, the author's love for math pushed them to seek something more.
 
-![](https://static.wixstatic.com/media/e47301_cb76cf4f377d49118b68386d02de683f~mv2.png)
+![](/assets/img/e47301_cb76cf4f377d49118b68386d02de683f.png)
 
 ### The Beauty of Math
 

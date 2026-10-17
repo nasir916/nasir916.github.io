@@ -3,7 +3,7 @@ title: "Guide to install R and RStudio IDE into your PC"
 date: 2026-01-23T09:03:35.697Z
 slug: guide-to-install-r-and-rstudio-ide-into-your-pc
 categories: []
-image: "https://static.wixstatic.com/media/e47301_345da197be8e4491ace1fda1e6561371~mv2.png"
+image: "/assets/img/e47301_345da197be8e4491ace1fda1e6561371.png"
 ---
 
 https://www.youtube.com/watch?v=3aXaw2w_ldM

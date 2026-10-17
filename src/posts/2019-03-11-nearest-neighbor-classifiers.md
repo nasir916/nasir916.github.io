@@ -3,7 +3,7 @@ title: "Nearest-Neighbor Classifiers"
 date: 2019-03-11T05:46:28.202Z
 slug: nearest-neighbor-classifiers
 categories: ["Machine Learning"]
-image: "https://static.wixstatic.com/media/e47301_2f24b173576441848eb814519f7a59c7~mv2.png"
+image: "/assets/img/e47301_2f24b173576441848eb814519f7a59c7.png"
 ---
 
 The K-Nearest Neighbor algorithms are among the simplest of all machine learning algorithms. The idea is to memorize the training set and then to predict the label of any new instance on the basis of the labels of its closest neighbors in the training set. The rationale behind such a method is based on the assumption that the features that are used to describe the domain points are relevant to their labeling in a way that makes close-by points likely to have the same label. 
@@ -44,4 +44,4 @@ The kNN is a learning by memorization type of rule. It require the entire traini
 
 2\) Robert Nisbet, Gary Miner & Ken Yale (2018) Handbook of Statistical Analysis and Data Mining Applications (second edition), Academic Press.
 
-![](https://static.wixstatic.com/media/e47301_2f24b173576441848eb814519f7a59c7~mv2.png)
+![](/assets/img/e47301_2f24b173576441848eb814519f7a59c7.png)

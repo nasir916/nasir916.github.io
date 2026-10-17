@@ -3,7 +3,7 @@ title: "Jaccard Similarity Coefficient"
 date: 2021-08-01T08:08:41.382Z
 slug: jaccard-similarity-coefficient
 categories: []
-image: "https://static.wixstatic.com/media/e47301_5f14187654fb4e60b638ada9ae2c371f~mv2.png"
+image: "/assets/img/e47301_5f14187654fb4e60b638ada9ae2c371f.png"
 ---
 
 Jaccard similarity is an easy, intuitive formula that is very powerful in many use cases including object detection in image recognition, classification, and image segmentation task (instance detection).  Its sometimes called as the Jaccard similarity coefficient or Jaccard similarity index. It compares members for two sets to see which members are shared and which are distinct. It's a measure of similarity for the two sets of data, with a range from 0% to 100%.
@@ -12,7 +12,7 @@ The higher the percentage, the more similar the two populations. Although it's e
 
 As a proper definition, the Jaccard index, is an intersection over Union and the Jaccard similarity coefficient (originally given the French name coefficient de communaute by Paul Jaccard), is a statistic used for gauging the similarity and diversity of sample sets. 
 
-![](https://static.wixstatic.com/media/e47301_5f14187654fb4e60b638ada9ae2c371f~mv2.png)
+![](/assets/img/e47301_5f14187654fb4e60b638ada9ae2c371f.png)
 
 As the formula shows, J(A,B) JS formula depends on set A and set B, specifically it is the division of intersect of A and B denoted by the arch shape, and the A union of B denoted by U. It is basically a formula for measuring how much overlap there is between A and B.
 
@@ -40,7 +40,7 @@ This percentage tells use how similar the two sets are:
 
 The Jaccard similarity can be easily visualized using Venn diagrams. Making it one of the easiest machine learning formula to understand. 
 
-![](https://static.wixstatic.com/media/e47301_78c08bc00d7342fcb7357d61567423af~mv2.png)
+![](/assets/img/e47301_78c08bc00d7342fcb7357d61567423af.png)
 
 The first Venn diagram illustrate the intersect in violet colour, and the non-overlapped area of A and B in yellow and orange. 
 

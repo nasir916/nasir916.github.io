@@ -3,10 +3,10 @@ title: "Dashboard COVID-19"
 date: 2020-03-26T17:53:32.693Z
 slug: dashboard-covid-19-march-2020
 categories: []
-image: "https://static.wixstatic.com/media/e47301_0ae9fdcb86fc40d4858af9c9ef6387aa~mv2.png"
+image: "/assets/img/e47301_0ae9fdcb86fc40d4858af9c9ef6387aa.png"
 ---
 
-[![](https://static.wixstatic.com/media/e47301_0ae9fdcb86fc40d4858af9c9ef6387aa~mv2.png)](healthdata.usm.my:3939/content/131)
+[![](/assets/img/e47301_0ae9fdcb86fc40d4858af9c9ef6387aa.png)](healthdata.usm.my:3939/content/131)
 
 **Dashboard COVID-19 Kes Di Malaysia.** 
 

@@ -3,14 +3,14 @@ title: "Overfitting and Underfitting"
 date: 2021-03-27T07:11:16.343Z
 slug: overfitting-and-underfitting
 categories: []
-image: "https://static.wixstatic.com/media/e47301_6e77a13cfe314376a90102b997fdeeaa~mv2.png"
+image: "/assets/img/e47301_6e77a13cfe314376a90102b997fdeeaa.png"
 ---
 
 Disclaimer: This article is copied from [Overfitting vs. Underfitting. A guide to recognize and remedy your… \| by Nabil M Abbas \| The Startup \| Medium](https://medium.com/swlh/overfitting-vs-underfitting-d742b4ffac57)
 
 One of the most alarming indicators of a poorly performing machine learning model is an accuracy test of the training and testing data. A test of your data will indicate if your model is overfit, underfit, or balanced. The reason we have train-test split is so that we can determine and adjust the performance of our models. Otherwise we would be blindly training our models to predict without any insight on the model’s performance.
 
-![](https://static.wixstatic.com/media/e47301_6e77a13cfe314376a90102b997fdeeaa~mv2.png)
+![](/assets/img/e47301_6e77a13cfe314376a90102b997fdeeaa.png)
 
 ### **1) Underfitting**
 
@@ -56,7 +56,7 @@ i) **k-fold cross validation.** It is a powerful preventative measure against ov
 
 	"*In standard k-fold cross-validation, we partition the data into k subsets, called folds. Then, we iteratively train the algorithm on k-1 folds while using the remaining fold as the test set (called the “holdout fold”).*
 
-![](https://static.wixstatic.com/media/e47301_0669cea232804affb97bf2f2a0858d74~mv2.jpeg)
+![](/assets/img/e47301_0669cea232804affb97bf2f2a0858d74.jpeg)
 
 ii) **train with more data**. This won’t work in every case, but in scenarios where you are looking at a skewed sample of data, sampling additional data can help normalize your data. An example of this is if you model height vs. age of children, sampling from more school districts will help your model.
 
@@ -68,7 +68,7 @@ v) **Ensembles** are a machine learning method to combine predictions from multi
 
 ### **Bias Variance Trade Off**
 
-![](https://static.wixstatic.com/media/e47301_7f0857597ace4152ac3fbbd81b86bba7~mv2.png)
+![](/assets/img/e47301_7f0857597ace4152ac3fbbd81b86bba7.png)
 
 Ultimately Data Scientists have to make decisions as to how they want their model to predict. They have to understand their model and why it is predicting a particular way. The ideas of overfitting and underfitting fall under the umbrella of the Bias Variance Trade Off. Ultimately error can come from both bias and variance, so the Data Scientist needs to be able to find a balance. But I’ll leave the Bias Variance Trade Off for a future post.
 

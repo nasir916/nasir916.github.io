@@ -3,7 +3,7 @@ title: "Error installing devtools library in Ubuntu"
 date: 2017-12-13T16:51:15.009Z
 slug: error-installing-devtools-library-in-ubuntu
 categories: ["R-Programming"]
-image: "https://static.wixstatic.com/media/e47301_804ca8fe906745838a70163001a3861c~mv2.png"
+image: "/assets/img/e47301_804ca8fe906745838a70163001a3861c.png"
 ---
 
 For those who using RStudio in Ubuntu OS who had problem in installing packages that require ***devtools*** library. Don't worry anymore, because we have found the solution for this. 
@@ -42,4 +42,4 @@ Once it done, go back to Rstudio and install.packages("devtools"). It works with
 
 Thanks!
 
-![](https://static.wixstatic.com/media/e47301_804ca8fe906745838a70163001a3861c~mv2.png)
+![](/assets/img/e47301_804ca8fe906745838a70163001a3861c.png)

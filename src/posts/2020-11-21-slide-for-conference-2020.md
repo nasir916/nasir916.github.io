@@ -3,7 +3,7 @@ title: "Slide for ConfeRence 2020"
 date: 2020-11-21T05:54:17.061Z
 slug: slide-for-conference-2020
 categories: []
-image: "https://static.wixstatic.com/media/e47301_1b0afd7f374642369fea266374deb765~mv2.jpg"
+image: "/assets/img/e47301_1b0afd7f374642369fea266374deb765.jpg"
 ---
 
 Dear All, 
@@ -16,4 +16,4 @@ For full lecture on Literature scraping in pubmed, plos and scopus - <u>[link](h
 
 For R Codes, i will provide later today here. stay tune.. :)
 
-![](https://static.wixstatic.com/media/e47301_1b0afd7f374642369fea266374deb765~mv2.jpg)
+![](/assets/img/e47301_1b0afd7f374642369fea266374deb765.jpg)
